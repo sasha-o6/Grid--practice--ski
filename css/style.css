@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h1 + p {
+  font-size: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+
+h2 + p {
+  margin-top: 30px;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 36px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 28px;
+  font-size: 18px;
+  letter-spacing: 2.7px;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 35px;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "a a a a" "a a a a" "b b c c" "d e f g" "h h i j" "k k l l";
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-right {
+  padding: 95px 200px 95px 50px;
+}
+
+.card-left {
+  padding: 95px 65px 95px 200px;
+}
+
+.grid-item-main {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: a;
+  padding-top: 205px;
+  padding-left: 200px;
+  padding-bottom: 295px;
+  background-image: url(../img/bg-main.png);
+}
+
+.grid-item-main h1 {
+  font-size: 72px;
+  letter-spacing: -4.5px;
+  margin-bottom: 30px;
+}
+
+.grid-item-main p {
+  font-size: 30px;
+  letter-spacing: -1.4px;
+  line-height: 40px;
+}
+
+.grid-item-ski_suit {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: b;
+  background-image: url(../img/bg-red.png);
+}
+
+.grid-item-lgray {
+  background-color: #f3f1ef;
+  padding: 80px 160px 80px 50px;
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: c;
+}
+
+.pic {
+  height: 525px;
+}
+
+.grid-item-pic1 {
+  background-image: url(../img/bg-one.png);
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: d;
+}
+
+.grid-item-pic2 {
+  background-image: url(../img/bg-two.png);
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: e;
+}
+
+.grid-item-pic3 {
+  background-image: url(../img/bg-three.png);
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: f;
+}
+
+.grid-item-pic4 {
+  background-image: url(../img/bg-four.png);
+  -ms-grid-row: 4;
+  -ms-grid-column: 4;
+  grid-area: g;
+}
+
+.grid-item-instagram {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: h;
+}
+
+.grid-item-pic5 {
+  background-image: url(../img/bg-five.png);
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: i;
+}
+
+.grid-item-bluebg {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  grid-area: j;
+}
+
+.grid-item-blue {
+  background-color: #3f729b;
+  color: #fff;
+}
+
+.grid-item-spotify {
+  background-color: #2ebd59;
+  color: #fff;
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: k;
+}
+
+.grid-item-itunes {
+  background-color: #282b2f;
+  color: #fff;
+  -ms-grid-row: 6;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: l;
+}
